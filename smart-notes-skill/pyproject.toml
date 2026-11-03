@@ -1,1 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "smart-notes-skill"
+version = "0.1.0"
+description = "ระบบจดบันทึกอัจฉริยะ: จดและจัดหมวดหมู่เนื้อหาอัตโนมัติ"
+requires-python = ">=3.8"
+authors = [{ name = "Thanva Phupingbut" }]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
